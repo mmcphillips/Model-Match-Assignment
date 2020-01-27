@@ -1,0 +1,33 @@
+{
+  "name": "model-match-assignment",
+  "version": "1.0.0",
+  "description": "A CLI to emulate book management, persisting a mock database that is generated to lib/library.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcphillips/Model-Match-Assignment.git"
+  },
+  "keywords": [
+    "books",
+    "cli"
+  ],
+  "author": "Matthew McPhillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmcphillips/Model-Match-Assignment/issues"
+  },
+  "homepage": "https://github.com/mmcphillips/Model-Match-Assignment#readme",
+  "dependencies": {
+    "configstore": "^5.0.0",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
